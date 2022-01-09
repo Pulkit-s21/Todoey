@@ -19,7 +19,7 @@ class TaskTile extends StatelessWidget {
       title: Text(
         taskTitle,
         style: TextStyle(
-          fontSize: 30,
+          fontSize: 25,
           decoration: isChecked ? TextDecoration.lineThrough : null,
           color: isChecked ? Colors.grey : null,
         ),
